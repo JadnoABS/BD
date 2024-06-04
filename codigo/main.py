@@ -1,0 +1,91 @@
+from fastapi import FastAPI
+from router.client import client_router
+from router.employee import employee_router
+from router.dependent import dependent_router
+from router.benefit import benefit_router
+from router.cash_outflow import cash_outflow_router
+from router.hotel import hotel_router
+from router.bedroom import bedroom_router
+from router.reservation import reservation_router
+from router.product import product_router
+from router.reservation_period_bedroom import reservation_period_bedroom_router
+from router.parking_space import parking_space_router
+from router.company import company_router
+from router.event import event_router
+from router.saloon import saloon_router
+from router.kitchen import kitchen_router
+from router.cash_entry import cash_entry_router
+from router.reservation_product import reservation_product_router
+from router.hotel_product import hotel_product_router
+from router.bedroom_product import bedroom_product_router
+from router.reservation_parking_space import reservation_parking_space_router
+from router.room import room_router
+from router.cash_entry_event import cash_entry_event_router
+from router.cash_entry_reservation import cash_entry_reservation_router
+from router.cash_entry_room import cash_entry_room_router
+from router.restaurant import restaurant_router
+from router.department import department_router
+from router.restaurant_product import restaurant_product_router
+from router.cash_entry_restaurant import cash_entry_restaurant_router
+from router.supervision import supervision_router
+from router.benefit_employee import benefit_employee_router
+from router.received_payment import received_payment_router
+from router.event_saloon import event_saloon_router
+from router.saloon_kitchen import saloon_kitchen_router
+from router.cash_outflow_product import cash_outflow_product_router
+from router.employee_room import employee_room_router
+from router.employee_saloon import employee_saloon_router
+from router.cupom import cupom_router
+from router.campaigns import campaigns_router
+from router.dish import dish_router
+from router.petshop import petshop_router
+from router.petshop_product import petshop_product_router
+from router.petshop_client_payment import petshop_client_payment_router
+from router.fidelity_program import fidelity_program_router
+from router.cash_outflow_campaign import cash_outflow_campaign_router
+
+app = FastAPI()
+app.include_router(client_router)
+app.include_router(employee_router)
+app.include_router(dependent_router)
+app.include_router(benefit_router)
+app.include_router(cash_outflow_router)
+app.include_router(hotel_router)
+app.include_router(bedroom_router)
+app.include_router(reservation_router)
+app.include_router(product_router)
+app.include_router(reservation_period_bedroom_router)
+app.include_router(parking_space_router)
+app.include_router(company_router)
+app.include_router(event_router)
+app.include_router(saloon_router)
+app.include_router(kitchen_router)
+app.include_router(cash_entry_router)
+app.include_router(reservation_product_router)
+app.include_router(hotel_product_router)
+app.include_router(bedroom_product_router)
+app.include_router(reservation_parking_space_router)
+app.include_router(room_router)
+app.include_router(cash_entry_event_router)
+app.include_router(cash_entry_reservation_router)
+app.include_router(cash_entry_room_router)
+app.include_router(restaurant_router)
+app.include_router(department_router)
+app.include_router(restaurant_product_router)
+app.include_router(cash_entry_restaurant_router)
+app.include_router(supervision_router)
+app.include_router(benefit_employee_router)
+app.include_router(received_payment_router)
+app.include_router(event_saloon_router)
+app.include_router(saloon_kitchen_router)
+app.include_router(cash_outflow_product_router)
+app.include_router(employee_room_router)
+app.include_router(employee_saloon_router)
+app.include_router(cupom_router)
+app.include_router(campaigns_router)
+app.include_router(dish_router)
+app.include_router(petshop_router)
+app.include_router(petshop_product_router)
+app.include_router(petshop_client_payment_router)
+app.include_router(fidelity_program_router)
+app.include_router(cash_outflow_campaign_router)

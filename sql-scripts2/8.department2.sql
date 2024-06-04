@@ -1,0 +1,61 @@
+--  Auto-generated SQL script #202212142331
+UPDATE department
+	SET manager_cpf='34190494541'
+	WHERE department_id=1;
+UPDATE department
+	SET manager_cpf='79243245086'
+	WHERE department_id=2;
+UPDATE department
+	SET manager_cpf='96085352320'
+	WHERE department_id=3;
+UPDATE department
+	SET manager_cpf='22389034833'
+	WHERE department_id=4;
+UPDATE department
+	SET manager_cpf='13144156188'
+	WHERE department_id=5;
+UPDATE department
+	SET manager_cpf='92748031008'
+	WHERE department_id=6;
+UPDATE department
+	SET manager_cpf='34001196132'
+	WHERE department_id=7;
+UPDATE department
+	SET manager_cpf='90098653640'
+	WHERE department_id=8;
+UPDATE department
+	SET manager_cpf='46848979044'
+	WHERE department_id=9;
+UPDATE department
+	SET manager_cpf='50815306335'
+	WHERE department_id=10;
+UPDATE department
+	SET manager_cpf='95363017129'
+	WHERE department_id=11;
+UPDATE department
+	SET manager_cpf='45183531317'
+	WHERE department_id=12;
+UPDATE department
+	SET manager_cpf='57950105512'
+	WHERE department_id=13;
+UPDATE department
+	SET manager_cpf='84899323025'
+	WHERE department_id=14;
+UPDATE department
+	SET manager_cpf='94225114828'
+	WHERE department_id=15;
+UPDATE department
+	SET manager_cpf='86388311345'
+	WHERE department_id=16;
+UPDATE department
+	SET manager_cpf='64950318323'
+	WHERE department_id=17;
+UPDATE department
+	SET manager_cpf='65801393729'
+	WHERE department_id=18;
+UPDATE department
+	SET manager_cpf='36496999612'
+	WHERE department_id=19;
+UPDATE department
+	SET manager_cpf='85535105936'
+	WHERE department_id=20;

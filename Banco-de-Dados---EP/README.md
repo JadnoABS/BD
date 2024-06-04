@@ -1,0 +1,1 @@
+- [ ] na tabela cash_outflow_campaign, precisa mudar a fk do payment_id pra referenciar o cash_outflow
